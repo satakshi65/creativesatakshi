@@ -37,17 +37,13 @@
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    
+    .sticky .cv,
     .cv {
         text-align: center;
         margin: 0;
         transform: scale(0.7) translateY(-31px);
     }
-    .sticky .cv{
-        text-align: center;
-        margin: 0;
-        transform: scale(0.7) translateY(-82px);
-    }
+    
 }
 
 
