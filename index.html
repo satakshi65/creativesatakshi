@@ -1,421 +1,775 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
-
-    <!-- Metas -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Personala onepage themeforest" />
-    <meta name="description" content="Personala - Onepage Multi-Purpose HTML5 Template" />
-    <meta name="author" content="His7am" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=2.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Satakshi - Portfolio" />
 
-    <!-- Title  -->
-    <title>Tilak Basu</title>
+    <title>Satakshi - Portfolio</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100i,300,400,600,700" rel="stylesheet">
+    <!--main_css-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
+    <!--Responsive_css-->
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
 
-    <!-- Core Style Css -->
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font-awesome-->
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css">
+
+    <!--animate-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
 
-    <!-- =====================================
-    	==== Start Loading -->
-    <div class="loading">
-        <div class="text-center middle">
-            <div class="lds-ellipsis">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
-    <!-- End Loading ====
-    	======================================= -->
+    <!--loader-->
+    <div class="loader-screen"><img id="loader" src="images/loader.gif"></div>
+    <!--loader end-->
 
-
-    <!-- =====================================
-    	==== Start Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-
-            <!-- Logo -->
-            <a class="logo" href="#">TILAK BASU</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="icon-bar"><i class="fas fa-bars"></i></span>
-			  </button>
-
-            <!-- navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="1">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="5">Qualifications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="2">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="6">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End Navbar ====
-    	======================================= -->
-
-
-    <!-- =====================================
-    	==== Start Header -->
-    <header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="5" data-background="img/bg.jpg" data-stellar-background-ratio="0.5">
+    <!--Main-header-->
+    <header class="main-header">
         <div class="container">
             <div class="row">
-                <div class="vertical-center full-width text-center caption">
-                    <h2>I Love To Handle Projects</h2>
-                    <h1 class="cd-headline clip">
-                        <span class="blc">I Am </span>
-                        <span class="cd-words-wrapper">
-				              <b class="is-visible">Tilak Basu</b>
-				              <b>a Project Manager</b>
-				              <b>an Electrical Engineer</b>
-				            </span>
-                    </h1>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-10 col-sm-12 col-12">
+                    <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+                    <ul class="menu">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">My Services</a></li>
+                        <li><a href="#skills">My Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#work">Latest Work</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                    <div class="cv">
+                        <a href="docs/cv.pdf" target="_blank">Resume <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="arrow">
-            <a href="#" data-scroll-nav="1">
-					<i class="fas fa-chevron-down"></i>
-				</a>
         </div>
     </header>
-    <!-- End Header ====
-    	======================================= -->
-
-
-    <!-- =====================================
-    	==== Start Hero -->
-    <section class="hero section-padding" data-scroll-index="1">
+    <!--end-->
+    <div class="clearfix"></div>
+    <!--banner-->
+    <section class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="hero-img mb-md50">
-                        <img src="img/hero.jpg" alt="">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="banner-txt wow slideInLeft">
+                        <h4>Hello, I am <img src="images/wave.png" class="wave" alt="wave-emoji"></h4>
+                        <h1>Satakshi Datta</h1>
+                        <h6>UI Designer | Frontend Developer | Digital Marketer</h6>
+                    </div>
+                    <div class="banner-btn wow zoomIn">
+                        <a href="https://calendly.com/d_satakshi3421" target="_blank">Let's Talk <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#work" class="work-btn">My Work <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="banner-end wow slideInLeft">
+                        <ul>
+                            <li>
+                                <span>20+</span> Dedicated Clients
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><a href="https://www.linkedin.com/in/satakshi-datta" target="_blank"><i
+                                                class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.facebook.com/satakshi.datta.7" target="_blank"><i
+                                                class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.instagram.com/lovely_sprinkles8013/" target="_blank"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://dribbble.com/iamsatakshi" target="_blank"><i
+                                                class="fa-brands fa-dribbble"></i></a></li>
+                                    <li><a href="https://wa.me/+919903802947?text=How%20can%20I%20help%20you?"
+                                            target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <div class="content">
-                        <h4 class="title title-left">I Am a Project Manager</h4>
-                        <p>I am <span>Tilak Basu</span> a goal-oriented professional with more than 5 years experience in fast-paced environments. My Key Strengths include multi-tasking, problem solving, working under pressure & ready to help the company to achieve all goals with ease. I aspire to work in an organization that provides opportunities to upgrade skills & reach career heights.
-                        </p>
-
-                        <div class="social-icon">
-                            <a href="#0">
-    							<img alt="image" src="img/fb.png">
-    							</a>
-                            <a href="#0">
-                                <img alt="image" src="img/insta.webp">
-    							</a>
-                            <a href="#0">
-                                <img alt="image" src="img/link.png">
-    							</a>
-                        </div>
-
-                        <span class="buton text-center">
-							  <a href="mailto:basu.tilak@yahoo.co.in" front="Contact Me" back="&#xf1d8;" data-scroll-nav="6"></a>
-							</span>
-                        <span class="buton buton-bord text-center">
-							  <a href="CV.pdf" front="Download C.V" back="&#xf019;" download="CV.pdf"></a>
-							</span>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="banner-img">
+                        <img src="images/banner-img.png" alt="Banner Image">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Hero ====
-    	======================================= -->
-
-
-    <!-- =====================================
-    	==== Start Resume -->
-    <section class="resume bg-img" data-overlay-dark="8" data-background="img/b4.jpg" data-scroll-index="5">
+    <!--end-->
+    <div class="clearfix"></div>
+    <!--about-->
+    <section class="about-index" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="item mb-md50">
-                        <span class="icon icon-pencil"></span><br>
-                        <h5 class="title title-left">Education</h5>
-                        <ul>
-                            <li>
-                                <h6>Taki Ramkrishna Mission High School </h6>
-                                <p>Madhyamik (2006)</p>
-                            </li>
-                            <li>
-                                <h6>Basirhat Town High School </h6>
-                                <p>Higher Secondary (2008)</p>
-                            </li>
-                            <li>
-                                <h6>Kingston Polytechnic College</h6>
-                                <p>Diploma (2011)</p>
-                            </li>
-                            <li>
-                                <h6>Kanad Institute Of Engineering & Management </h6>
-                                <p>B.Tech (2014)</p>
-                            </li>
-                        </ul>
+                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                    <div class="site-title wow zoomIn">
+                        <h4>
+                            I start every project by listening carefully to understand your needs. Then I break-down
+                            your project down into hyper-focused and managable requests.
+                        </h4>
                     </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="item skills">
-                        <span class="icon icon-layers"></span><br>
-                        <h5 class="title title-left">Technical Knowledge</h5>
-
-                        <div class="skill">
-                            <h6>Certificate course of Autocad <span>100%</span></h6>
-                            <div class="skills-progress"><span data-value='100%'></span></div>
-                        </div>
-                        <div class="skill">
-                            <h6>Knowledge of Networking / CCNA  <span>100%</span></h6>
-                            <div class="skills-progress"><span data-value='100%'></span></div>
-                        </div>
-                        <div class="skill">
-                            <h6>Computer proficient and familiar with Windows, Linux OS.  <span>100%</span></h6>
-                            <div class="skills-progress"><span data-value='100%'></span></div>
-                        </div>
-                        <div class="skill">
-                            <h6>Basics of C, Basics of My SQL, Basics of HTML <span>100%</span></h6>
-                            <div class="skills-progress"><span data-value='100%'></span></div>
-                        </div>
-                        <div class="skill">
-                            <h6>Good knowledge on MS Excel, MS Word  <span>100%</span></h6>
-                            <div class="skills-progress"><span data-value='100%'></span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="item skills">
-                        <span class="icon icon-layers"></span><br>
-                        <h5 class="title title-left">Languages Known</h5>
-
-                        <div class="skill">
-                            <h6>Bengali <span>100%</span></h6>
-                            <div class="skills-progress"><span data-value='100%'></span></div>
-                        </div>
-                        <div class="skill">
-                            <h6>Hindi <span>100%</span></h6>
-                            <div class="skills-progress"><span data-value='100%'></span></div>
-                        </div>
-                        <div class="skill">
-                            <h6>English <span>100%</span></h6>
-                            <div class="skills-progress"><span data-value='100%'></span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Resume ====
-    	======================================= -->
-
-
-    <!-- =====================================
-    	==== Start Services -->
-    <section class="services section-padding" data-scroll-index="2">
-        <div class="container">
-            <div class="row">
-
-                <div class="section-head full-width">
-                    <h4 class="title">My Experience</h4>
-                </div>
-
-                <div class="col-lg-12 col-md-12">
-                    <div class="exp-each">
-                        <h4>Project Manager at Capital Powers System Ltd.</h4>
-                        <h5>March 2023 - Present <strong>[Location : Noida]</strong> </h5>
-                        <p>
-                            Working as a Project Manager in the Digitalization of Energy Management, Smart Grid/Metering, and Energy audit and monitoring. Also working on Advance Metering Infrastructure, Head End System Prepaid Electricity and Prepaid Gas Metering.
-                        </p>
-                        <ul>
-                           <li>Managed projects from procurement to commission.</li> 
-                            <li>Met project deadlines without sacrificing build quality or workplace safety.</li> 
-                            <li>Developed and initiated projects, managed costs, and monitored performance.</li> 
-                            <li>Planned, designed, and scheduled phases for large projects</li> 
-                            <li>Client Coordination & Customer Satisfaction</li> 
-                            <li>Monitored project progress, identified risks, and took corrective action as needed with proper team management.</li> 
-                        </ul>
-                    </div>    
-                </div>
-                <div class="col-lg-12 col-md-12">
-                    <div class="exp-each">
-                        <h4>Senior Site Engineer at Vareli Tecnac Pvt. Ltd</h4>
-                        <h5>February 2020 - March 2023 <strong> [Location : Joda, Odisha] </strong> </h5>
-                        <p>
-                            Having experience in FMS (Fleet management system) of digital mining solutions, and dynamic dispatching as a system administrator deployed on Project under TATA STEEL LTD. 
-                        </p>
-                        <ul>
-                            <li>Access and operate wenco DB home and SQL server 2012 R2 standard for report fetching and SQL Query. </li>
-                            <li>Monitor and troubleshoot mines network without any obstacle. </li>
-                            <li>Team management and Support FMS engineer on allocated assigned technical calls. </li>
-                            <li>Configuration of Microsoft windows server and troubleshooting. </li>
-                            <li>Installing and troubleshoot managed switch RFS 4000, Wireless Access point (2.5 GHZ- 5 GHZ), P2P/PMP radio 5 GHZ. </li>
-                            <li>Configuration of bullet, Panel PC & Omnicom fuel sensor. </li>
-                            <li>Coordinate with client for any operational issue and billing process. </li>
-                            <li>Operating Wenco Fleet management system application. </li> 
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-12 col-md-12">
-                    <div class="exp-each">
-                        <h4>Senior Systems Engineer & Senior Site Engineer at Radius Synergies International Pvt. Ltd.</h4>
-                        <h5>November 2014 - December 2019   <strong> [Location : New Delhi]</strong> </h5>
-                        <p>
-                            Having total Experience of 5 Years 1 Month as a support engineer and project Coordinator in Digitalization of Energy Management, Smart Grid/Metering and Energy audit and monitoring. Also worked in Advance Metering Infrastructure, Head End System Prepaid Electricity Metering.
-                        </p>
-                        <ul>
-                            <li>Project execution, team management, Support NOC team and operation team.</li>
-                            <li>Monitor various site on RF based & NOC(Network Operating center) based technology and troubleshoot network related issue through Xenius software.</li>
-                            <li>Vendor management, commissioning bill generation.</li>
-                            <li>Coordinate with clients for any non-functionality operational issues and provide support on priority.</li>
-                            <li>Deputed as a site Engineer and need to visit 5 to 6 sites every day and main objective was to troubleshoot to run the system smoothly.</li> 
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!-- End Services ====
-    	======================================= -->
-
-
-  
-
-    <!-- =====================================
-    	==== Start Contact -->
-    <section class="contact section-padding bg-img" data-overlay-dark="8" data-background="img/b5.jpg" data-scroll-index="6">
-        <div class="container">
-            <div class="row">
-
-                <!-- Section-Head -->
-                <div class="section-head full-width mb-50">
-                    <h4 class="title">Get In Touch</h4>
-                </div>
-
-
-                <div class="info full-width">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="item mb-sm50">
-                                <span class="icon icon-mobile"></span>
-                                <div class="cont">
-                                    <h6>Phone</h6>
-                                    <p><a href="tel:9903722947">+91-9903722947</a></p>
-                                </div>
-                            </div>
+                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
+                            <img src="images/self.png" alt="self" class="img-rounded wow slideInLeft"
+                                style="border-radius: 50%;">
                         </div>
-                        <div class="col-md-4">
-                            <div class="item mb-sm50">
-                                <span class="icon icon-envelope"></span>
-                                <div class="cont">
-                                    <h6>Email</h6>
-                                    <p><a href="mailto:basu.tilak@yahoo.co.in">basu.tilak@yahoo.co.in</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="item">
-                                <span class="icon icon-map-pin"></span>
-                                <div class="cont">
-                                    <h6>Address</h6>
-                                    <p>2nd Floor F-151, F Block, Noida Sector 27, Near Indira Market, U.P Pin - 201301
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-12">
+                            <p class="wow slideInLeft">
+                                I am a web UI designer and frontend developer with a passion for creating visually
+                                appealing and user-friendly websites and mobile apps. I focus on early-stage design -
+                                taking a brand from zero to one. My work help companies make strategic decisions in
+                                their foundational stages and leverage their position in the market. Over the past I
+                                have helped to grouw startups and established businesses in the industry.
+                            </p>
                         </div>
                     </div>
                 </div>
-
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                    <div class="stat-counter">
+                        <div class="counter-each wow slideInRight">
+                            <h2 data-max="25">+ <br> <span>Completed Projects</span></h2>
+                        </div>
+                        <div class="counter-each wow slideInRight">
+                            <h2 data-max="20">+ <br> <span>Dedicated Clients</span></h2>
+                        </div>
+                        <div class="counter-each wow slideInRight">
+                            <h2 data-max="8">+ <br> <span>Years of Experience</span></h2>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- End Contact ====
-    	======================================= -->
+    <!--end-->
+    <div class="clearfix"></div>
+    <!--specialities-->
+    <section class="specialities" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="banner-txt wow zoomIn">
+                        <h4>Services I Provide</h4>
+                        <h1>My Specialities</h1>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="specialities-each wow zoomIn">
+                        <img src="images/s1.png" alt="speciality1">
+                        <h4>UI/UX<br> Design</h4>
+                        <!-- <p>UI/UX design is a crucial aspect of creating digital experiences that are both aesthetically pleasing and highly functional.</p> -->
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="specialities-each wow zoomIn">
+                        <img src="images/s2.png" alt="speciality2">
+                        <h4>Web<br> Design</h4>
+                        <!-- <p>Web design involves a blend of aesthetics, functionality, and technology to craft digital spaces that are not only appealing but also easy to navigate.</p> -->
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="specialities-each wow zoomIn">
+                        <img src="images/s3.png" alt="speciality3">
+                        <h4>Digital<br> Marketing</h4>
+                        <!-- <p>Digital marketing is the practice of promoting products, services, or brands through online channels to reach a targeted audience.</p> -->
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="specialities-each wow zoomIn">
+                        <img src="images/s4.png" alt="speciality4">
+                        <h4>Ecommerce<br> Websites</h4>
+                        <!-- <p>Ecommerce websites are specialized online platforms designed to facilitate the buying and selling of products or services over the internet.</p> -->
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="specialities-each wow zoomIn">
+                        <img src="images/s5.png" alt="speciality5">
+                        <h4>Mobile <br>Applications</h4>
+                        <!-- <p>
+                            Mobile applications can serve various purposes, from enhancing productivity and communication to offering entertainment and managing daily tasks.</p> -->
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="specialities-each wow zoomIn">
+                        <img src="images/s6.png" alt="speciality6">
+                        <h4>Brand <br>Identity</h4>
+                        <!-- <p>Brand identity encompasses overall style that a brand uses across all touchpoints.</p> -->
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="specialities-each wow zoomIn">
+                        <img src="images/s7.png" alt="speciality7">
+                        <h4>Theme <br>Development</h4>
+                        <!-- <p>Theme development involves creating custom themes or templates for websites, applications, or content management systems (CMS).</p> -->
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="specialities-each wow zoomIn">
+                        <img src="images/s8.png" alt="speciality3">
+                        <h4>Video <br>Editing</h4>
+                        <!-- <p>
+                            Video editing is the process of manipulating and arranging video footage to create a polished final product that effectively communicates a story, message, or concept.</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+    <div class="clearfix"></div>
+    <!--skills-->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="banner-txt wow zoomIn">
+                        <h4>Technologies I Work with</h4>
+                        <h1>My Skills</h1>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="skills-each wow zoomIn">
+                        <h4>Web Development</h4>
+                        <ul>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t1.png" alt="skill1">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>HTML5</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t2.png" alt="skill2">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>CSS3</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t3.png" alt="skill3">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Bootstrap</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t5.png" alt="skill4">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Tailwind</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t4.png" alt="skill4">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>SASS</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t9.png" alt="skill5">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Javascript</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t10.png" alt="skill6">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>jQuery</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t11.png" alt="skill7">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Wordpress</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills-each wow zoomIn">
+                        <h4>Design Programs</h4>
+                        <ul>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t7.png" alt="skill8">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Adobe XD</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t8.png" alt="skill9">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Figma</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/t6.png" alt="skill10">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Adobe Photoshop</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/illustrator.png" alt="skill10">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Adobe Illustrator</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/premiere-pro.png" alt="skill10">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Adobe Premier Pro</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/Canva_logo..png" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Canva</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="skills-each wow zoomIn">
+                        <h4>Theme Development</h4>
+                        <ul>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/elementor.png" alt="skill11">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Elementor</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/divi.png" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Divi</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/webflow.webp" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Webflow</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills-each wow zoomIn">
+                        <h4>Digital Marketing</h4>
+                        <ul>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/Logo_Google_Analytics.svg.png" alt="skill11">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Google Analytics</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/Google-Ads-Logo-Transparent.png" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Google Ads</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/ahrefs-SEO-Tool-Logo-Vector.svg-.png" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>ahrefs</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/semrush.png" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Semrush</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/HubSpot-Logo.png" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Hubspot</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/getresponse-1024x512-20190323.png" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Get Response</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/facebook-ads-logo.png" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Facebook Ads</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-img">
+                                    <img src="images/Yoast_Logo_tagline_Large_RGB.png" alt="skill12">
+                                </div>
+                                <div class="skill-name">
+                                    <h4>Yoast SEO</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+    <div class="clearfix"></div>
+    <!--experience-->
+    <section class="resume" id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="banner-txt wow slideInLeft">
+                        <h1>Experience</h1>
+                    </div>
+                    <div class="resume-each wow slideInLeft">
+                        <h4>2024 - Present</h4>
+                        <h2>UI Designer</h2>
+                        <h6>Cloud4Things Technologies Pvt. Ltd</h6>
+                    </div>
+                    <div class="resume-each wow slideInLeft">
+                        <h4>2018 - 2024</h4>
+                        <h2>Senior HTML Developer</h2>
+                        <h6>Codeclouds IT Solutions Pvt. Ltd</h6>
+                    </div>
+                    <div class="resume-each wow slideInLeft">
+                        <h4>2016 - 2018</h4>
+                        <h2>Senior Web Designer</h2>
+                        <h6>Onqanet Technologies Pvt. Ltd</h6>
+                    </div>
+                    <div class="resume-each wow slideInLeft">
+                        <h4>2015 - 2016</h4>
+                        <h2>Web Designer Trainee</h2>
+                        <h6>S2K Techfarm</h6>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="banner-txt wow slideInRight">
+                        <h1>Education</h1>
+                    </div>
+                    <div class="resume-each wow slideInRight">
+                        <h4>2023 - 2024</h4>
+                        <h2>Certificate - Advanced Digital Marketing & Martech</h2>
+                        <h6>IIT Roorkee</h6>
+                    </div>
+                    <div class="resume-each wow slideInRight">
+                        <h4>2013 - 2015</h4>
+                        <h2>Diploma - Digital Media Pro</h2>
+                        <h6>Arena Animation, Kankurgachi</h6>
+                    </div>
+                    <div class="resume-each wow slideInRight">
+                        <h4>2011 - 2013</h4>
+                        <h2>B.A - Honours</h2>
+                        <h6>Serampore College</h6>
+                    </div>
+                    <div class="resume-each wow slideInRight">
+                        <h4>2011</h4>
+                        <h2>Higher Secondary</h2>
+                        <h6>H.M High School</h6>
+                    </div>
+                    <div class="resume-each wow slideInRight">
+                        <h4>2009</h4>
+                        <h2>Madhyamik</h2>
+                        <h6>H.M High School</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+    <div class="clearfix"></div>
+    <!--selected-works-->
+    <section class="works" id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <center>
+                        <div class="site-title wow zoomIn">
+                            <h5>Some of my selected Works</h5>
+                            <h4>
+                                The showcased projects highlight skills in User Interface (UI) Design, Frontend
+                                Development, Mobile Apps & Digital Marketing.
+                            </h4>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="work-each wow zoomIn">
+                        <img src="images/project1.jpg" alt="work1">
+                        <h2><strong> MBA Weddingwala :</strong> Wedding Planner in Kolkata</h2>
+                        <p>
+                            MBA Weddingwala is a brand who plans weddings and other events in Kolkata and its adjourning areas.
+                        </p>
+                        <ul>
+                            <li>Figma</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Wordpress</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="work-each wow zoomIn">
+                        <img src="images/project2.jpg" alt="work1">
+                        <h2><strong> StayX :</strong> One platform for rented accommodations.</h2>
+                        <p>
+                            It is an IOT platform for the rented accommodations for calculating the energy consumptions
+                            and perform different analytics on the consumption data.
+                        </p>
+                        <ul>
+                            <li>Figma</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>React</li>
+                            <li>Core Java</li>
+                            <li>Springboot</li>
+                            <li>Mongo DB</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="work-each wow zoomIn">
+                        <img src="images/project3.jpg" alt="work1">
+                        <h2><strong> ASR Powers :</strong> It is a one-stop destination in EPC Segment.</h2>
+                        <p>
+                            The portfolio under the EPC segment of ASR Power covers everything under the spectrum of Electrical external work, Solar, EMS solutions & Prepaid Smart metering System.
+                        </p>
+                        <ul>
+                            <li>Figma</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Tailwind</li>
+                            <li>Wordpress</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="work-each wow zoomIn">
+                        <img src="images/project4.jpg" alt="work1">
+                        <h2><strong> Cloud4Things :</strong> Offers a Digital-based, cloud-native Smart Utility Platform Website</h2>
+                        <p>
+                            C4T offers a Digital-based, cloud-native Smart Utility Platform designed for the efficient management of electricity, water, and gas utilities. 
+                        </p>
+                        <ul>
+                            <li>Figma</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Wordpress</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="work-each wow zoomIn">
+                        <img src="images/project5.jpg" alt="work1">
+                        <h2><strong> Shounak's Photography :</strong> Personal Photography Portfolio</h2>
+                        <p>
+                            It is a portfolio website of Shounak Pal which includes his latest photography clicks and about his background of Software Engineer having passion in Photography.
+                        </p>
+                        <ul>
+                            <li>Figma</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Wordpress</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="work-each wow zoomIn">
+                        <img src="images/project6.jpg" alt="work1">
+                        <h2><strong> Anand Techmasters :</strong> Marketing Consltant in Oil & Gas sector</h2>
+                        <p>
+                            It is a website of Anand Techmasters which is a marketing consultant in Oil & Gas sector. They provide end-to-end marketing, business development and BD solutions.
+                        </p>
+                        <ul>
+                            <li>Figma</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Wordpress</li>
+                        </ul>
+                    </div>
+                </div>
+                <center>
+                    <p class="ww" style="color: #f00;">**Respecting my non-disclosure agreement (NDA), I cannot share
+                        the specific live details on website.** <br> **This website showcases some of my selected
+                        portfolios. However, there are more projects from my design & coding journey that were crucial
+                        in my formative years**</p>
 
-
-    <!-- =====================================
-    	==== Start Footer -->
-    <footer class="footer">
-        <p>Copyright &copy; All Rights Reserved.</p>
+                </center>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+    <div class="clearfix"></div>
+    <!--contact-sec-->
+    <section class="contact-index">
+        <div class="container">
+            <div class="row">
+                <center>
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <center>
+                            <img src="images/self.png" alt="self" class="img-rounded"
+                                style="width: 100px;  border-radius: 50%; margin-bottom: 20px;">
+                        </center>
+                        <h2>Need help with Website Customization ? Get in Touch with me...</h2>
+                        <div class="row">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mx-auto">
+                                <p>
+                                    <strong>Email</strong><br>
+                                    <a href="mailto:d_satakshi3421@yahoo.com">d_satakshi3421@yahoo.com</a>
+                                </p>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mx-auto">
+                                <p>
+                                    <strong>Phone & Whatsapp</strong><br>
+                                    <a href="tel:9903802947">+91 9903802947</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+    <div class="clearfix"></div>
+    <!--footer-->
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
+                    <img src="images/logo.png" alt="image">
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                    <p style="margin: 4% 0 0 0;text-align: right;">
+                        © 2024 Satakshi Datta. All rights reserved.<br>
+                        Made with love <i class="fa-solid fa-heart" style="color: #f00;"></i> patience, & the power of
+                        process.
+                    </p>
+                </div>
+                <hr>
+                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
+                    <h5>Let's Connect !</h5>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/satakshi-datta" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.facebook.com/satakshi.datta.7" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/lovely_sprinkles8013/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://dribbble.com/iamsatakshi" target="_blank"><i
+                                    class="fa-brands fa-dribbble"></i></a></li>
+                                    <li><a href="https://wa.me/+919903802947?text=How%20can%20I%20help%20you?"
+                                        target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-    <!-- End Footer ====
-    	======================================= -->
+    <!--end-->
+    <div class="clearfix"></div>
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
 
+    <script>
+        $(document).ready(function(){
+            document.addEventListener('contextmenu', event => event.preventDefault());
 
+        document.onkeydown = function(e) {
+          if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+              alert('You cannot view Source Code !!!');
+          }
+          return false;
+        };
+        });
+    </script>
 
-
-    <!-- jQuery -->
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.min.js"></script>
-
-    <!-- popper.min -->
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/popper.min.js"></script>
 
-    <!-- bootstrap -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/custom.js"></script>
+
+    <!--Wow-JS-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--Bootstrap-->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- scrollIt -->
-    <script src="js/scrollIt.min.js"></script>
-
-    <!-- animated.headline -->
-    <script src="js/animated.headline.js"></script>
-
-    <!-- jquery.waypoints.min -->
-    <script src="js/jquery.waypoints.min.js"></script>
-
-    <!-- jquery.counterup.min -->
-    <script src="js/jquery.counterup.min.js"></script>
-
-    <!-- owl carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-
-    <!-- jquery.magnific-popup js -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-
-    <!-- stellar js -->
-    <script src="js/jquery.stellar.min.js"></script>
-
-    <!-- isotope.pkgd.min js -->
-    <script src="js/isotope.pkgd.min.js"></script>
-
-    <!-- validator js -->
-    <script src="js/validator.js"></script>
-
-    <!-- custom scripts -->
-    <script src="js/scripts.js"></script>
-
 </body>
 
 </html>
