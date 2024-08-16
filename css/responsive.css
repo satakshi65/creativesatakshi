@@ -49,6 +49,11 @@
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .sticky .cv, .cv {
+        text-align: center;
+        margin: 0;
+        transform: scale(0.7) translateY(-81px);
+    }
     .menu {
         position: fixed;
         top: 0;
