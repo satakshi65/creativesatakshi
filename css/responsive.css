@@ -163,12 +163,14 @@
     }
     .banner-txt {
         margin: 0;
+        text-align: center;
     }
     .banner-txt h6 {
         font-size: 13px;
     }
     .banner-btn {
         margin: 30px 0 0;
+        text-align: center;
     }
     .banner-btn a {
         padding: 14px 20px;
@@ -221,12 +223,23 @@
         line-height: 32px;
         text-align: center;
     }
+    .resume {
+        text-align: center;
+    }
     
 }
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .banner-txt h1::before{
         display: none;
+    }
+    .specialities-each h4 {
+        font-size: 14px;
+    }
+    .footer-wrapper img {
+        width: 60px;
+        margin: 0 auto 0px;
+        display: block;
     }
 }
 
