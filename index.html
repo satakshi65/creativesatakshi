@@ -820,7 +820,18 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
 
-    
+    <script>
+        $(document).ready(function(){
+            document.addEventListener('contextmenu', event => event.preventDefault());
+
+        document.onkeydown = function(e) {
+          if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+              alert('You cannot view Source Code !!!');
+          }
+          return false;
+        };
+        });
+    </script>
 
     <!-- Bootstrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
