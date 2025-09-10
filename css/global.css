@@ -1,0 +1,48 @@
+/**----------------------------------------
+Common Variables
+----------------------------------------*/
+:root {
+    --bz-ff-body: "Inter", sans-serif;
+    --bz-ff-heading: "Inter", sans-serif;
+    --bz-ff-p: "Inter", sans-serif;
+
+    --bz-fw-normal: normal;
+    --bz-fw-thin: 100;
+    --bz-fw-elight: 200;
+    --bz-fw-light: 300;
+    --bz-fw-regular: 400;
+    --bz-fw-medium: 500;
+    --bz-fw-sbold: 600;
+    --bz-fw-bold: 700;
+    --bz-fw-ebold: 800;
+    --bz-fw-black: 900;
+
+    --bz-fz-small: 0.75rem;
+    /*12px*/
+    --bz-fs-p: 0.87rem;
+    /*14px*/
+    --bz-fs-body: 1rem;
+    /*16px*/
+    --bz-fs-h1: 4.125rem;
+    /*66px*/
+    --bz-fs-h2: 3rem;
+    /*48px*/
+    --bz-fs-h3: 2.25rem;
+    /*36px*/
+    --bz-fs-h4: 1.87rem;
+    /*30px*/
+    --bz-fs-h5: 1.5rem;
+    /*24px*/
+    --bz-fs-h6: 1.25rem;
+    /*20px*/
+
+    --bz-color-common-white: #fff;
+    --bz-color-common-black: #000;
+    --bz-color-common-dark: #232323;
+    --bz-color-text-body: #74787C;
+    --banner-color: #ffead9;
+    --primary-color: #FFB646;
+    --bz-color-theme-secondary: #191F29;
+}
+
+/*********end**********/
