@@ -271,7 +271,7 @@ $(document).ready(function () {
   //   });
 
 
-  //Right click / Inspect Element off & Ctrl+U off
+  // // Right click / Inspect Element off & Ctrl+U off
 
   // document.addEventListener('contextmenu', event => event.preventDefault());
 
