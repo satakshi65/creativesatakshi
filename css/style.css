@@ -638,7 +638,7 @@ HOME-PAGE START
 }
 
 .banner-txt h1 {
-    font-size: 60px;
+    font-size: 85px;
     font-family: var(--bz-ff-heading);
     font-weight: 300;
     line-height: 64px;
@@ -728,7 +728,7 @@ HOME-PAGE START
 }
 
 .banner-end {
-  margin: 18% 0 0 0;
+    margin: 0;
 }
 
 .banner-end ul {
@@ -736,8 +736,8 @@ HOME-PAGE START
 }
 
 .banner-end ul li ul {
-  margin-left: 20px;
-  padding: 0;
+    margin-left: 0;
+    padding: 0;
 }
 
 .banner-end ul li span {
@@ -775,13 +775,14 @@ HOME-PAGE START
 }
 
 .banner-end ul li>ul>li>a i {
-  font-size: var(--bz-fs-body);
-  padding: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    font-size: 25px;
+    padding: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #495057;
 }
 
 .wave {
@@ -872,18 +873,22 @@ section.about-index p {
 }
 
 .stat-counter {
-  text-align: center;
+    text-align: center;
+    display: flex;
+    margin: 40px 0 0 0;
 }
-
 .counter-each h2 {
-  font-family: var(--bz-ff-heading);
-  font-weight: var(--bz-fw-ebold);
-  font-size: var(--bz-fs-h1);
-  margin: 0 0 50px 0;
-  line-height: 30px;
-  color: #f30000;
+    font-family: var(--bz-ff-heading);
+    font-weight: var(--bz-fw-ebold);
+    font-size: 30px;
+    margin: 0 0 50px 0;
+    line-height: 30px;
+    color: #0d6efd;
+    text-align: center;
 }
-
+.counter-each {
+    margin-right: 40px;
+}
 .counter-each h2 span {
   font-family: var(--bz-ff-body);
   font-weight: 700;
@@ -981,7 +986,25 @@ section.specialities {
 .box:hover .back {
   transform: perspective(1000px) rotateY(0deg);
 }
+ul.spcl-fea {
+    margin: 20px 0 20px !important;
+}
 
+ul.spcl-fea li::before {
+    position: absolute;
+    content: '';
+    left: -18px;
+    width: 7px;
+    height: 7px;
+    background: #0d6efd;
+    top: 5px;
+}
+ul.spcl-fea li {
+    position: relative;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 12px;
+}
 /**********  front  **************/
 .box .front .center {
   position: absolute;
