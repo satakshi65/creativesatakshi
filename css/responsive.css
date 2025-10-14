@@ -9,8 +9,8 @@
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
     ul.menu li a {
-        font-size: 11px;
-        padding: 30px 8px;
+        font-size: 14px;
+        padding: 30px 10px;
         font-weight: 400;
     }
 
@@ -46,6 +46,28 @@
         margin: 0% 0 0 0;
     }
 
+    .logo-area img {
+        width: 180px !important;
+        margin: 10px 0;
+        display: block;
+    }
+
+    ul.menu li a::before {
+        position: absolute;
+        content: '//';
+        left: -8px;
+        top: 51px;
+    }
+
+    .banner-btn {
+        margin: 40px 0 0 0 !important;
+    }
+
+    .banner .banner-txt {
+        margin: 18% auto 0;
+        text-align: center;
+        z-index: -9;
+    }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -135,6 +157,21 @@
     .menu1.show {
         display: flex;
     }
+
+    .skill-each {
+        width: 49%;
+    }
+
+    .serv-box h1 {
+        font-size: 19px;
+    }
+.pro-inner-banner-txt {
+    width: 100%;
+    margin: 8% auto 0;
+}
+section.project-inner-banner {
+    height: auto;
+}
 }
 
 
@@ -272,7 +309,7 @@
     }
 
     .banner-txt h6 {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .banner-btn {
@@ -348,6 +385,29 @@
         text-align: center;
     }
 
+    .skill-each {
+        width: 100%;
+    }
+
+
+
+    .banner .banner-txt h1 {
+        font-size: 47px;
+        line-height: 20px;
+    }
+
+    .skills .banner-txt {
+        margin: 0% 0 0px 0;
+    }
+
+    .banner {
+        height: 530px;
+    }
+
+    section.works .site-title h5 {
+        font-size: 30px;
+    }
+
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
@@ -361,11 +421,12 @@
     }
 
     .footer-wrapper img {
-        width: 60px;
-        margin: 0 auto 0px;
+        width: 200px;
+        margin: 0 auto 10px;
         display: block;
     }
+
     .skill-each {
-    height: auto;
-}
+        height: auto;
+    }
 }

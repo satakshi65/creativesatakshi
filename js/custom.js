@@ -149,6 +149,22 @@ const menuLinks = document.querySelectorAll('.menu a');
 
 
 
+// Optional: Adjust column count based on screen size
+function adjustMasonry() {
+    const masonry = document.querySelector('.masonry');
+    if(window.innerWidth < 768){
+        masonry.style.columnCount = 1;
+    } else if(window.innerWidth < 1024){
+        masonry.style.columnCount = 2;
+    } else {
+        masonry.style.columnCount = 3;
+    }
+}
+
+window.addEventListener('resize', adjustMasonry);
+window.addEventListener('load', adjustMasonry);
+
+
 //popup
 $(document).ready(function () {
     // Open the popup and disable background scrolling

@@ -2,9 +2,9 @@
 Common Variables
 ----------------------------------------*/
 :root {
-    --bz-ff-body: "Inter", sans-serif;
-    --bz-ff-heading: "Inter", sans-serif;
-    --bz-ff-p: "Inter", sans-serif;
+    --bz-ff-body: "Roboto Mono", monospace;
+    --bz-ff-heading: "DM Sans", sans-serif;
+    --bz-ff-p: "DM Sans", sans-serif;
 
     --bz-fw-normal: normal;
     --bz-fw-thin: 100;
