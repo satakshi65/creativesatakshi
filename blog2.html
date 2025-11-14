@@ -141,7 +141,8 @@ function handleFormSubmit(event) {
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
 
-    $(document).ready(function () {
+    <script>
+        $(document).ready(function () {
             document.addEventListener('contextmenu', event => event.preventDefault());
 
             document.onkeydown = function (e) {
@@ -151,6 +152,7 @@ function handleFormSubmit(event) {
                 return false;
             };
         });
+    </script>
 
     <!-- Bootstrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
