@@ -1817,13 +1817,14 @@ section.works .site-title h5 {
 }
 
 .skill-each {
-  border-radius: 0;
-  padding: 20px 0;
-  text-align: center;
-  margin-bottom: 0px;
-  float: left;
-  width: 33%;
-  height: 170px;
+    border-radius: 10px;
+    padding: 0px 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 32%;
+    height: 245px;
+    display: inline-block;
+    background: #242424;
 }
 
 .skill-each ul {
@@ -3707,6 +3708,22 @@ div.about-sec-index .banner-txt h1 {
   border-radius: 10px;
   padding: 20px 20px;
   margin-bottom: 30px;
+  position: relative;
+    overflow: hidden;
+}
+
+.latest-ribbon {
+    position: absolute;
+    top: -26px;
+    right: -33px;
+    width: 130px;
+    text-align: center;
+    background: #ff4d4f;
+    color: #fff;
+    padding: 9px 0px 0 60px;
+    transform: rotate(45deg);
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .cert-txt h6 {

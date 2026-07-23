@@ -276,29 +276,18 @@ $(document).ready(function () {
 
 
 
-  //map-container
-
-  // $('.map-container')
-  //   .click(function () {
-  //     $(this).find('iframe').addClass('clicked')
-  //   })
-  //   .mouseleave(function () {
-  //     $(this).find('iframe').removeClass('clicked')
-  //   });
 
 
   // Right click / Inspect Element off & Ctrl+U off
 
-  document.addEventListener('contextmenu', event => event.preventDefault());
+  // document.addEventListener('contextmenu', event => event.preventDefault());
 
-  document.onkeydown = function (e) {
-    if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
-      alert('You cannot view Source Code !!!');
-    }
-    return false;
-  };
-
-
+  // document.onkeydown = function (e) {
+  //   if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+  //     alert('You cannot view Source Code !!!');
+  //   }
+  //   return false;
+  // };
 
 });
 
